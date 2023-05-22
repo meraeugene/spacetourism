@@ -15,7 +15,6 @@
 }
 
 .swiper-pagination {
-  position: absolute !important;
   left: -40% !important;
   bottom: 25% !important;
 }
@@ -127,7 +126,6 @@
   }
 
   .swiper-pagination {
-    position: absolute !important;
     left: 50% !important;
     transform: translateX(-50%) !important;
     bottom: 60% !important;
@@ -147,7 +145,7 @@
   .app__crew__wrapper {
     flex-direction: column-reverse;
     padding: 0 1rem;
-    margin-bottom: 3rem;
+    padding-bottom: 1rem;
   }
 
   .app__crew {
@@ -165,15 +163,15 @@
     object-fit: contain;
   }
 
-  .app__crew-content-img {
-    margin-bottom: 3rem;
-  }
-
   .app__crew-content-title {
     text-align: center;
     margin: 2rem 0;
     margin-top: 0;
     font-size: 16px;
+  }
+
+  .app__crew-content {
+    margin-top: 2rem;
   }
 
   .app__crew-content-title span {
@@ -197,13 +195,13 @@
   }
 
   .swiper-pagination {
-    bottom: 10px !important;
+    bottom: 41% !important;
     left: 50% !important;
-    right: 50% !important;
+    transform: translateX(-50%) !important;
   }
 
   .app__crew-content-img {
     margin-top: 0rem;
-    flex: 0.3 !important;
+    margin-bottom: 2rem;
   }
 }

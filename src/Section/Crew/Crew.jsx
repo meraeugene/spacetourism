@@ -24,9 +24,7 @@ const Crew = () => {
 
       <Swiper pagination={true} modules={[Pagination]} className="mySwiper ">
         <SwiperSlide>
-          {crew && (
-            <TemplateCrew crews={crew[0]} image={images.hurley} width="415px" />
-          )}
+          {crew && <TemplateCrew crews={crew[0]} image={images.hurley} />}
         </SwiperSlide>
         <SwiperSlide>
           {crew && <TemplateCrew crews={crew[1]} image={images.shuttleworth} />}

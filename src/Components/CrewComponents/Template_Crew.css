@@ -146,7 +146,7 @@
 @media screen and (max-width: 650px) {
   .app__crew__wrapper {
     flex-direction: column-reverse;
-    padding: 0 1.5rem;
+    padding: 0 1rem;
     margin-bottom: 3rem;
   }
 
@@ -205,9 +205,5 @@
   .app__crew-content-img {
     margin-top: 0rem;
     flex: 0.3 !important;
-  }
-
-  .app__crew {
-    padding-bottom: 1rem;
   }
 }
